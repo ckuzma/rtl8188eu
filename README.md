@@ -54,3 +54,7 @@ iface wlan0 inet dhcp
 <p>
 Save the file, and shutdown. Plug in your wireless card and restart the computer. If everything worked, you'll see the activity light on the card blinking and you will be successfully connected to the WiFi network.
 </p>
+<br>
+<p>
+If for some reason you are missing the firmware file necessary to use the driver, then copy <code>rtl8188eufw.bin</code> to <code>/lib/firmware/rtlwifi</code>, rebooting as necessary.
+</p>
