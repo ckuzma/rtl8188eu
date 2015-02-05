@@ -33,7 +33,7 @@ sudo pico interfaces
 </code>
 </p>
 <p>
-Then add the following lines to the interfaces file before saving:
+Then add the following lines to the interfaces file (or uncomment the existing template) and save:
 <br>
 <code>
 auto wlan0
