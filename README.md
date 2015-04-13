@@ -6,11 +6,11 @@ Compiled wireless driver (8188eu.ko) for use with BeagleBone. Shared to help oth
 To install, copy the <code>8188.ko</code> file to the home directory, then execute the following commands:
 <br>
 <code>
-sudo install -p -m 644 8188eu.ko /lib/modules/%KERNEL-VERSION%/kernel/drivers/net/wireless
+sudo install -p -m 644 8188eu.ko /lib/modules/#KernelVersion#/kernel/drivers/net/wireless
 </code>
 <br>
 <code>
-sudo insmod /lib/modules/%KERNEL-VERSION%/kernel/drivers/net/wireless/8188eu.ko
+sudo insmod /lib/modules/#KernelVersion#/kernel/drivers/net/wireless/8188eu.ko
 </code>
 <br>
 <code>
