@@ -25,11 +25,7 @@ sudo reboot
 After the reboot, open up your interfaces file as root:
 <br>
 <code>
-cd /etc/network
-</code>
-<br>
-<code>
-sudo pico interfaces
+sudo pico /etc/network/interfaces
 </code>
 </p>
 <p>
